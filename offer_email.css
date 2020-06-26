@@ -1,0 +1,563 @@
+@page {
+    margin: 2.1cm 3.7cm 1.5cm 1.8cm;
+    @top-left {
+        width: 33%;
+        content: "";
+        background: url('https://d138zd1ktt9iqe.cloudfront.net/static/common/images/logo.png') no-repeat center;
+        background-size: 180px;
+        margin-top: .6cm;
+        vertical-align: top;
+    }
+    @right-middle {
+        content: "";
+        background: url('https://d1inme52y93ouw.cloudfront.net/media/common-images/water_mark.png') no-repeat right;
+        background-size: 145px;
+    }
+}
+
+html, body {
+    font: 11pt/1.25 "Fakt Soft Pro", Arial, Sans-serif !important;
+    -weasy-hyphens: auto;
+}
+
+body {
+    text-align: justify;
+    margin: 0cm -1.2cm 0 0.8cm !important;
+    background: none !important;
+}
+
+p {
+    line-height: 1.5;
+}
+
+li {
+    padding: 3px 0;
+}
+
+ol.terms li {
+    padding: 8px 0;
+}
+
+a {
+    color: #06aefc;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 3px 10px;
+    border: 1px solid #ffc000;
+}
+
+span.rvts1
+{
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts2
+{
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts3
+{
+ color: #000000;
+}
+span.rvts4
+{
+ color: #000000;
+}
+span.rvts5
+{
+ font-size: 7pt;
+ color: #000000;
+ vertical-align: super;
+}
+span.rvts6
+{
+ color: #000000;
+}
+span.rvts7
+{
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts8
+{
+ color: #000000;
+}
+span.rvts9
+{
+ color: #000000;
+}
+span.rvts10
+{
+ font-weight: bold;
+ color: #000000;
+ text-decoration: underline;
+}
+span.rvts11
+{
+ font-weight: bold;
+ color: #000000;
+ text-decoration: underline;
+}
+span.rvts13
+{
+ color: #ff0000;
+}
+span.rvts14
+{
+ font-style: italic;
+ color: #000000;
+}
+span.rvts15
+{
+ color: #ff0000;
+}
+span.rvts16
+{
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts17
+{
+ color: #000000;
+ text-decoration: underline;
+}
+span.rvts18
+{
+ color: #000000;
+ text-decoration: underline;
+}
+span.rvts19
+{
+ color: #000000;
+ text-decoration: underline;
+}
+
+/* ========== Flow chart css ends ========== */
+
+
+
+#container {
+    width:580px;
+    font-family:verdana,arial,helvetica,sans-serif;
+    font-size:11px;
+    text-align:center;
+    margin:auto;
+ }
+#container a {
+    display:block;
+    color:#000;
+    text-decoration:none;
+    background-color:#f6f6ff;
+ }
+#no2 {
+    display:inline;
+    border:1px solid #000;
+    clear:both;
+    float:left;
+ }
+#no2 a,#no3 a, #no4 a, #no5 a{
+    width:84px;
+    height:70px;
+    padding-top:8px;
+    padding-bottom:8px;
+ }
+
+#no6 a, #no7 a, #no8 a, #no9 a{
+  height: 100px;
+  width:84px;
+  padding-top:16px;
+  padding-bottom:8px;
+}
+
+#parent {
+    width:84px;
+    height:50px;
+    padding-top:8px;
+ }
+#no3 {
+    display:inline;
+    border:1px solid #000;
+    float:left;
+ }
+
+#no4 {
+    display:inline;
+    border:1px solid #000;
+    float:left;
+ }
+#no5 {
+    display:inline;
+    border:1px solid #000;
+    float:left;
+ }
+#line7{
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:50px;
+    color:#fff;
+    background-color:#000;
+    margin-left:330px;
+    float:left;
+ }
+#line8 {
+    font-size:0;
+    display:inline;
+    width:1px;
+    height:50px;
+    color:#fff;
+    background-color:#000;
+    margin-left:150px;
+    float:left;
+ }
+#no6,#no8 {
+    display:inline;
+    border:1px solid #000;
+    margin-left:290px;
+    float:left;
+ }
+#line1 {
+    font-size:0;
+    display:inline;
+    width:60px;
+    height:1px;
+    color:#fff;
+    background-color:#000;
+    margin-top:40px;
+    float:left;
+}
+
+#no7,#no9 {
+    display:inline;
+    border:1px solid #000;
+    margin-left:60px;
+    float:left;
+ }
+
+
+
+
+ /* ========== Flow chart css ends========== */
+
+
+
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ line-height: 1.07;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 11px 0px;
+}
+.rvps1
+{
+ text-align: center;
+}
+.rvps2
+{
+ text-align: justify;
+}
+.rvps3
+{
+ text-align: justify;
+ margin: 0px 0px 0px 0px;
+}
+.rvps4
+{
+ text-align: justify;
+ text-indent: -48px;
+ margin: 0px 0px 0px 48px;
+}
+.rvps5
+{
+ text-align: justify;
+ text-indent: -47px;
+ line-height: 1.00;
+ margin: 0px 0px 0px 47px;
+}
+.rvps6
+{
+ text-align: justify;
+ line-height: 1.00;
+ margin: 0px 0px 0px 47px;
+}
+.rvps7
+{
+ line-height: 1.00;
+ margin: 0px 0px 0px 0px;
+}
+.rvps8
+{
+ text-align: justify;
+ line-height: 1.00;
+}
+.rvps9
+{
+ text-align: justify;
+ margin: 0px 0px 0px 48px;
+}
+.rvps10
+{
+ text-align: center;
+ margin: 0px 0px 0px 48px;
+}
+.rvps11
+{
+ widows: 2;
+ orphans: 2;
+}
+.rvps12
+{
+ text-align: justify;
+ text-indent: -66px;
+ margin: 0px 0px 0px 114px;
+}
+.rvps13
+{
+ text-align: justify;
+ margin: 0px 0px 0px 114px;
+}
+.rvps14
+{
+ text-align: justify;
+ text-indent: -48px;
+ margin: 0px 0px 0px 96px;
+}
+.rvps15
+{
+ text-align: justify;
+ margin: 0px 0px 0px 96px;
+}
+.rvps16
+{
+ text-align: justify;
+ text-indent: -48px;
+ line-height: 1.00;
+ margin: 0px 0px 0px 96px;
+}
+.rvps17
+{
+ text-align: justify;
+ page-break-after: avoid;
+ margin: 0px 0px 0px 48px;
+}
+.rvps18
+{
+ margin: 0px 0px 0px 0px;
+}
+.rvps20
+{
+ text-align: justify;
+ text-indent: -24px;
+ margin: 0px 0px 11px 24px;
+}
+.rvps21
+{
+ text-align: justify;
+ margin: 0px 0px 11px 24px;
+}
+.rvps22
+{
+ text-align: justify;
+ text-indent: 48px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps23
+{
+ text-align: justify;
+ line-height: 1.00;
+ margin: 0px 0px 0px 48px;
+}
+.rvps24
+{
+ text-align: justify;
+ text-indent: -24px;
+ margin: 0px 0px 0px 24px;
+}
+.rvps25
+{
+ text-align: justify;
+ margin: 0px 0px 0px 24px;
+}
+.rvps26
+{
+ text-align: justify;
+ text-indent: -24px;
+ widows: 2;
+ orphans: 2;
+ margin: 0px 0px 0px 24px;
+}
+.rvps27
+{
+ text-align: justify;
+ widows: 2;
+ orphans: 2;
+ margin: 0px 0px 0px 24px;
+}
+.rvps28
+{
+ text-align: center;
+ margin: 0px 0px 0px 0px;
+}
+.rvps29
+{
+ text-align: justify;
+ margin: 0px 0px 0px 0px;
+}
+.rvps30
+{
+ text-align: justify;
+ text-indent: 168px;
+}
+.rvps31
+{
+ text-align: justify;
+}
+.rvps32
+{
+ text-align: justify;
+ margin: 0px 2px 0px 0px;
+}
+.rvps33
+{
+ text-align: justify;
+ text-indent: 168px;
+ margin: 0px 2px 0px 0px;
+}
+.rvps34
+{
+ text-align: justify;
+ margin: 0px 2px 0px 0px;
+}
+.rvps35
+{
+ text-align: justify;
+ text-indent: -48px;
+ margin: 0px 0px 0px 144px;
+}
+.rvps36
+{
+ text-align: justify;
+ margin: 0px 0px 0px 144px;
+}
+.rvps37
+{
+ text-align: justify;
+ text-indent: 168px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps38
+{
+ text-align: justify;
+ margin: 0px 0px 0px 0px;
+}
+.rvps39
+{
+ text-align: justify;
+ margin: 0px 0px 11px 96px;
+}
+.rvps40
+{
+ text-align: justify;
+ text-indent: -48px;
+ margin: 0px 0px 0px 96px;
+}
+.rvps41
+{
+ text-align: justify;
+ margin: 0px 0px 0px 96px;
+}
+.rvps42
+{
+ text-align: justify;
+ margin: 0px 0px 0px 72px;
+}
+.rvps43
+{
+ text-align: justify;
+ margin: 0px 0px 0px 113px;
+}
+.rvps44
+{
+ text-align: justify;
+ margin: 0px 0px 0px 95px;
+}
+.rvps45
+{
+ text-align: center;
+ line-height: 1.00;
+}
+.rvps46
+{
+ text-align: justify;
+ text-indent: -24px;
+ margin: 0px 0px 0px 48px;
+}
+/* ========== Lists ========== */
+.list0 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: decimal;}
+.list1 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;}
+.list2 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-roman;}
+.list3 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;}
+.list4 {text-indent: 0px; padding: 0; margin: 0 0 0 144px; list-style-position: outside; list-style-type: lower-roman;}
+.list5 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: lower-alpha;}
+.list6 {text-indent: 0px; padding: 0; margin: 0 0 0 96px; list-style-position: outside; list-style-type: lower-alpha;}
+.list7 {text-indent: 0px; padding: 0; margin: 0 0 0 6px; list-style-position: outside; list-style-type: lower-alpha;}
+.list8 {text-indent: 0px; padding: 0; margin: 0 0 0 96px; list-style-position: outside; list-style-type: lower-alpha;}
+.list9 {text-indent: 168px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: decimal;}
+.list10 {text-indent: 264px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: decimal;}
+.list11 {text-indent: 360px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: decimal;}
+.list12 {text-indent: 456px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: decimal;}
+.list13 {text-indent: 552px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: decimal;}
+.list14 {text-indent: 648px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: decimal;}
+.list15 {text-indent: 744px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: decimal;}
+.list16 {text-indent: 840px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: decimal;}
+.list17 {text-indent: 0px; padding: 0; margin: 0 0 0 26px; list-style-position: outside; list-style-type: lower-alpha;}
+.list18 {text-indent: 72px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: lower-alpha;}
+.list19 {text-indent: 132px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: lower-roman;}
+.list20 {text-indent: 168px; padding: 0; margin: 0 0 0 -312px; list-style-position: inside; list-style-type: decimal;}
+.list21 {text-indent: 216px; padding: 0; margin: 0 0 0 408px; list-style-position: inside; list-style-type: lower-alpha;}
+.list22 {text-indent: 276px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: lower-roman;}
+.list23 {text-indent: 312px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: decimal;}
+.list24 {text-indent: 360px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: lower-alpha;}
+.list25 {text-indent: 420px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: lower-roman;}
+.list26 {text-indent: 0px; padding: 0; margin: 0 0 0 0px; list-style-position: outside; list-style-type: decimal;}
+.list27 {text-indent: 0px; padding: 0; margin: 0 0 0 144px; list-style-position: outside; list-style-type: decimal;}
+.list28 {text-indent: 0px; padding: 0; margin: 0 0 0 72px; list-style-position: outside; list-style-type: decimal;}
+.list29 {text-indent: 0px; padding: 0; margin: 0 0 0 96px; list-style-position: outside; list-style-type: decimal;}
+.list30 {text-indent: 0px; padding: 0; margin: 0 0 0 47px; list-style-position: outside; list-style-type: decimal;}
+.list31 {text-indent: 0px; padding: 0; margin: 0 0 0 97px; list-style-position: outside; list-style-type: lower-alpha;}
+.list32 {text-indent: 0px; padding: 0; margin: 0 0 0 -24px; list-style-position: outside; list-style-type: lower-alpha;}
+.list33 {text-indent: 0px; padding: 0; margin: 0 0 0 0px; list-style-position: outside; list-style-type: lower-alpha;}
+.list34 {text-indent: 0px; padding: 0; margin: 0 0 0 96px; list-style-position: outside; list-style-type: lower-roman;}
+.list35 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: disc;}
+.list36 {text-indent: 72px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: circle;}
+.list37 {text-indent: 120px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: square;}
+.list38 {text-indent: 168px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: square;}
+.list39 {text-indent: 216px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: square;}
+.list40 {text-indent: 264px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: square;}
+.list41 {text-indent: 312px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: square;}
+.list42 {text-indent: 360px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: square;}
+.list43 {text-indent: 408px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: square;}
+.list44 {text-indent: 96px; padding: 0; margin: 0 0 0 24px; list-style-position: inside; list-style-type: lower-alpha;}
+.list45 {text-indent: 156px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: lower-roman;}
+.list46 {text-indent: 192px; padding: 0; margin: 0 0 0 -360px; list-style-position: inside; list-style-type: decimal;}
+.list47 {text-indent: 240px; padding: 0; margin: 0 0 0 456px; list-style-position: inside; list-style-type: lower-alpha;}
+.list48 {text-indent: 300px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: lower-roman;}
+.list49 {text-indent: 336px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: decimal;}
+.list50 {text-indent: 384px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: lower-alpha;}
+.list51 {text-indent: 444px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: lower-roman;}
+.list52 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: upper-alpha;}
+.list53 {text-indent: 216px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: lower-alpha;}
+.list54 {text-indent: 168px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: lower-alpha;}
+.list55 {text-indent: 192px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: decimal;}
+.list56 {text-indent: 240px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: lower-alpha;}
+.list57 {text-indent: 0px; padding: 0; margin: 0 0 0 56px; list-style-position: outside; list-style-type: square;}
+.list58 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-type: none;}
