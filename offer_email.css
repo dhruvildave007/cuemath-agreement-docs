@@ -52,6 +52,20 @@ td {
     border: 1px solid #ffc000;
 }
 
+ol.roman-list-with-bracket {
+    text-indent: 0px; 
+    padding: 0; 
+    margin: 0 0 0 30px;
+    list-style-type: none;
+}
+li.roman-list-with-bracket:before {
+    content: "(" counter(section, lower-roman) ")";
+}
+li.roman-list-with-bracket { 
+    counter-increment: section;
+}
+
+
 span.rvts1
 {
  font-weight: bold;
@@ -561,3 +575,4 @@ p,ul,ol /* Paragraph Style */
 .list56 {text-indent: 240px; padding: 0; margin: 0 0 0 48px; list-style-position: inside; list-style-type: lower-alpha;}
 .list57 {text-indent: 0px; padding: 0; margin: 0 0 0 56px; list-style-position: outside; list-style-type: square;}
 .list58 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-type: none;}
+.list59 {text-indent: 0px; padding: 0; margin: 0 0 0 50px; list-style-position: outside; list-style-type: decimal;}
