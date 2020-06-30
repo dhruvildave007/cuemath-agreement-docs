@@ -22,7 +22,7 @@ html, body {
 
 body {
     text-align: justify;
-    margin: 0cm -1.2cm 0 0.8cm !important;
+    margin: 0cm 0.4cm 0 0.4cm !important;
     background: none !important;
 }
 
@@ -32,6 +32,7 @@ p {
 
 li {
     padding: 3px 0;
+    line-height: 1.2;
 }
 
 ol.terms li {
@@ -253,7 +254,7 @@ p,ul,ol /* Paragraph Style */
 {
  text-align: left;
  text-indent: 0px;
- line-height: 1.07;
+ line-height: 1.2;
  padding: 0px 0px 0px 0px;
  margin: 0px 0px 11px 0px;
 }
