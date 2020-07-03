@@ -502,6 +502,10 @@ p,ul,ol /* Paragraph Style */
  text-indent: -24px;
  margin: 0px 0px 0px 48px;
 }
+.rvps47
+{
+ text-align: justify;
+}
 /* ========== Lists ========== */
 .list0 {text-indent: 0px; padding: 0; margin: 0 0 0 24px; list-style-position: outside; list-style-type: decimal;}
 .list1 {text-indent: 0px; padding: 0; margin: 0 0 0 48px; list-style-position: outside; list-style-type: lower-alpha;}
@@ -592,12 +596,16 @@ ol.nested-counter-with-decimal-counter {
     display: table;
     counter-increment: item;
     margin-bottom: 0.6em;
+    text-align: justify;
+    margin: 0px 0px 0px 96px;
   }
   
   li.nested-counter-with-decimal-counter:before {
       content: counters(item, ".") ". ";
       display: table-cell;
-      padding-right: 0.6em;    
+      padding-right: 0.6em;
+      /* text-align: justify;
+      margin: 0px 0px 0px 96px;     */
   }
   
   li.nested-counter-with-decimal-counter li.nested-counter-with-decimal-counter {
