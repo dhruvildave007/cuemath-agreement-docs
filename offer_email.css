@@ -586,3 +586,34 @@ li.roman-list-with-bracket:before {
 li.roman-list-with-bracket { 
     counter-increment: section;
 }
+
+ol.nested-counter-with-decimal-counter {
+    list-style-type: none;
+    counter-reset: item;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li.nested-counter-with-decimal-counter {
+    display: table;
+    counter-increment: item;
+    margin-bottom: 0.6em;
+    text-align: justify;
+    margin: 0px 0px 0px 96px;
+  }
+  
+  li.nested-counter-with-decimal-counter:before {
+      content: counters(item, ".") ". ";
+      display: table-cell;
+      padding-right: 0.6em;
+      /* text-align: justify; */
+      margin: 0px 0px 0px 96px; 
+  }
+  
+  li.nested-counter-with-decimal-counter li.nested-counter-with-decimal-counter {
+      margin: 0;
+  }
+  
+  li.nested-counter-with-decimal-counter li.nested-counter-with-decimal-counter:before {
+      content: counters(item, ".") " ";
+  } 
